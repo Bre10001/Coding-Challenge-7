@@ -69,7 +69,9 @@ function calculateDepartmentSalary(department) {
 }
 
 const businessIntelligenceDepartment = company.departments[1];
-console.log("Total salary for Business Intelligence Department:", calculateDepartmentSalary(businessIntelligenceDepartment)); // Outputs total for BI department
+const totalDepSalary = calculateDepartmentSalary(businessIntelligenceDepartment);
+
+console.log(`Total salary for Business Intelligence Department: $${totalDepSalary}`); // Outputs total for BI department
 
 // Task 3: Function to Calculate the Total Salary for All Departments
 
